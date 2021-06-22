@@ -7,7 +7,7 @@ news.init();
   try {
     if (navigator.serviceWorker) {
       await navigator.serviceWorker.register(
-        '/service-worker.js',
+        './service-worker.js',
       );
     }
   } catch (e) {
